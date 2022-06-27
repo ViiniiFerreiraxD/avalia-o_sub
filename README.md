@@ -1,3 +1,6 @@
+## PSEUDO CÓDIGO
+
+
 # INICIO
 
 > insira as quantidades de alunos nas salas
