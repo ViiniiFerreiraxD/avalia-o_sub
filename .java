@@ -7,31 +7,43 @@ public class ExerciciosOhata {
 	//usando o scanner para receber o numero do usuario
 	  Scanner ler = new Scanner(System.in);
 	// criando as variaveis e as condiçoes delas  
-	  int num, num1 = 1, num2 = 2, num3 = 3;
+	  int num1, num2, num3, num4, num5, num6, num7, num8;
 	//print do enunciado para o usuario   
-	  System.out.println("Bom dia se identifique em qual condição se encontra para estacionar na vaga:");
-	//print do enunciado para o usuario ver qual condição esta 
-	  System.out.println("1. Gestante");
-	//print do enunciado para o usuario ver qual condição esta  
-	  System.out.println("2. Deficiente fisico");
-	//print do enunciado para o usuario ver qual condição esta  
-	  System.out.println("3. Idoso");
-	//print do enunciado para o usuario ver qual condição esta  
-	  System.out.print("digite a sua condição: ");
-	 // recebendo a condição do usuario 
+	  System.out.println("Insira a quantidade de alunos em cada sala respectivamente");
+	//print do enunciado para o usuario 
+	  System.out.println("laboratorio 1");
+	// recebendo a condição do usuario 
 	  num = ler.nextInt();
-	 //usando o "se" para comparar a condição para ver se esta autorizado
-	  if (num == num1 || num == num2 || num == num3)
-	  {
-	  // mostrando na tela que esta autorizado 
-		  System.out.printf("Voce esta autorizado a estacionar na vaga");
-	  }
-	 // usando o " se não" para caso ele nao esteja na condição necessaria 
-	  else
-	  {
-	  // mostrando ao usuario que nao esta autorizado
-		  System.out.printf("Voce não esta autorizado a estacionar na vaga"); 
-	  }
+        //print do enunciado para o usuario 
+	  System.out.println("laboratorio 2");
+	// recebendo a condição do usuario 
+	  num2 = ler.nextInt();
+	//print do enunciado para o usuario 
+	  System.out.println("laboratorio 3");
+	// recebendo a condição do usuario 
+	  num3 = ler.nextInt();
+        //print do enunciado para o usuario 
+	  System.out.println("laboratorio 4");
+	// recebendo a condição do usuario 
+	  num4 = ler.nextInt();
+	//print do enunciado para o usuario 
+	  System.out.println("laboratorio 5");
+	// recebendo a condição do usuario 
+	  num5 = ler.nextInt();
+	//print do enunciado para o usuario 
+	  System.out.println("laboratorio 6");
+	// recebendo a condição do usuario 
+	  num6 = ler.nextInt();
+	//print do enunciado para o usuario 
+	  System.out.println("laboratorio 7");
+	// recebendo a condição do usuario 
+	  num7 = ler.nextInt();
+	//print do enunciado para o usuario 
+	  System.out.println("laboratorio 8");
+	// recebendo a condição do usuario 
+	  num8 = ler.nextInt();
+        // mostrando na tela que esta autorizado 
+        System.out.printf("Respectivas salas e a quantidades de alunos",num1, num2, num3, num4, num5, num6, num7, num8);
 
 	}
 
